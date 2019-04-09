@@ -1,0 +1,496 @@
+/*ALL PAGES*/
+
+body {
+    background: black;
+}
+
+
+.avatar {
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+.container {
+    background-image: url(../img/ballnet3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    border-style: inset;
+    /*border-color: none;*/
+
+}
+
+.container h6 {
+
+    background-color: black;
+    height: 100px;
+    border-radius: 6px;
+    color: white;
+    display: block;
+    font-size: 40px;
+    padding-left: 260px;
+    padding-top: 60px;
+    text-align: left;
+    border-style: inset;
+    border-color: lawngreen;
+    margin-top: 40px;
+
+}
+
+.offset {
+    position: absolute;
+    margin-top: 0px;
+    padding-left: 30px;
+    top: 110px;
+    /*left: 0px;*/
+}
+
+.logo {
+    width: 200px;
+}
+
+.main-page {
+    background-image: url(../img/green-striped-grass-soccer-football-field-background-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    filter: blur(4px);*/
+/*    height: 100%;*/
+/*    position: relative;*/
+
+}
+
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column-1 img {
+    /*  margin-top: 8px;*/
+    vertical-align: middle;
+    position: absolute;
+    margin-top: 250px;
+    padding-left: 30px;
+    top: 110px;
+    
+}
+
+.column-2 img {
+    /*  margin-top: 8px;*/
+    vertical-align: middle;
+    position: absolute;
+    margin-top: 250px;
+    padding-left: 240px;
+    top: 310px;
+    
+   
+}
+
+.column-3 img {
+    vertical-align: middle;
+    position: absolute;
+    margin-top: 250px;
+    padding-left: 40px;
+    top: 510px;
+
+}
+
+
+nav a {
+    background-color: black;
+    height: 50px;
+    border-radius: 6px;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-style: inset;
+    border-color: lawngreen;
+}
+
+.parent {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+p {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* visited link */
+a:active {
+    color: dodgerblue;
+}
+
+nav a:hover {
+    color: dodgerblue;
+}
+
+aside {
+    background-image: url(../img/ballnet3.jpg);
+    background-repeat: space;
+    background-color: black;
+    background-size: cover;
+    padding: 40px;
+    margin: 10px;
+    border-style: inset;
+    /*border-color: none;*/
+
+}
+
+section {
+    float: right;
+    /* width: 1150px;*/
+    margin-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+    /* background-color: black;*/
+    border-style: inset;
+    /*border-color: none;*/
+    width: 90%;
+}
+
+/* END OF ALL PAGES*/
+
+/*GAME RULES PAGE*/
+
+.game-rules-page {
+
+    background-color: cornflowerblue;
+}
+
+/*game rules heading*/
+h2 {
+    text-align: center;
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    font-size: 30px;
+    border-style: inset;
+    border-color: lawngreen;
+}
+
+
+/*game rules second line headings*/
+h3 {
+    font-weight: 100;
+    text-align: center;
+    /*remember this setting if used h3 for any other page */
+    /*margin-bottom: 30px;*/
+}
+
+/*GAMES INFO PAGE*/
+.game-info-page {
+    /*so i can see highlights*/
+    background: white;
+    /*background-color: cornflowerblue;*/
+}
+
+/* unvisited link */
+.game-locations a:hover {
+    color: dodgerblue;
+}
+
+.game-locations a {
+    color: black;
+}
+
+.text {
+    font-weight: 100;
+}
+
+/*h4 is used on the About & Game Info pages */
+h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+
+/*h5 is used only on the Game Info page */
+h5 {
+    text-decoration-line: underline;
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+/* GAME RULES PAGE*/
+
+.square {
+    list-style-type: square;
+}
+
+.circle-indented {
+    list-style: circle;
+    margin-left: 20px;
+}
+
+.square-indented {
+    list-style-type: square;
+    margin-left: 0px;
+}
+
+.ordered-letters {
+
+    list-style: lower-alpha;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.ordered-numbers-indented {
+    margin-left: 50px;
+}
+
+/*GAME INFO TABLES*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-decoration: underline;
+}
+
+/*GAME INFO TABLES*/
+
+.month-table td {
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+}
+
+.month-table tr td:first-child {
+    padding-left: 25px;
+}
+
+.month-table-heading {
+    font-size: 20px;
+    text-decoration: underline;
+    width: 25%;
+}
+
+.month-table {
+    margin-bottom: 20px;
+}
+
+
+.game-locations {
+    margin-bottom: 20px;
+}
+
+
+.game-locations th {
+    text-decoration-line: none;
+    width: 35%;
+}
+
+/*END OF GAME INFO TABLES*/
+
+/* GAME INFO PAGE*/
+
+.facility-type {
+    margin-bottom: 15px;
+    font-family: arial, sans-serif;
+}
+
+.facility {
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.facility-text {}
+
+.additional-info {
+    margin-bottom: 15px;
+    font-family: arial, sans-serif;
+}
+
+.add-info {
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.add-text {}
+
+
+.direct-questions {
+    font-family: arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.please-quests {
+
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.phone-email {
+    font-family: arial, sans-serif;
+}
+
+.phone-em {
+    font-weight: bold;
+    padding-left: 160px;
+}
+
+/* END OF GAME INFO PAGE*/
+
+
+
+/*CONTACT PAGE*/
+.email {
+    color: darkblue;
+}
+
+/* END OF CONTACT PAGE*/
+
+
+/* REGISTRATION PAGE */
+
+.registration-page {
+    /*so i can see highlights*/
+    background: white;
+    /*background-color: cornflowerblue;*/
+}
+
+.players-name-address {
+    display: flex;
+}
+
+.players-name-address td {}
+
+
+.players-name-address th {
+    text-decoration-line: none;
+}
+
+
+.near-schools h4 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.near-schools th {
+    text-decoration-line: none;
+}
+
+.which-positions h4 {
+    display: inline-block;
+    font-size: 19px;
+    margin-top: 0px;
+
+}
+
+.which-positions p {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+.which-positions td {
+    width: 15%;
+}
+
+.birthdate-gender th {
+    display: inline-block;
+    padding-right: 10px;
+    text-decoration-line: none;
+}
+
+.school-grade th {
+    display: inline-block;
+    padding-right: 15px;
+    text-decoration-line: none;
+    font-weight: 100;
+}
+
+.jersey-size {
+    display: flex;
+    margin: 0px 350px 0px 0px;
+}
+
+.jersey-size th {
+    text-decoration-line: none;
+}
+
+.jersey-size td {}
+
+.jersey-size tr th:nth-child(1) {}
+
+.permission h6 {
+    font-size: 15px;
+    text-decoration-line: underline;
+    margin: 5px;
+}
+
+.permission p {
+    font-size: 15px;
+}
+
+.parent-info {
+    display: inline-block;
+
+}
+
+/* END OF REGISTRATION PAGE */
+
+/*MAPS*/
+
+
+
+.map-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: grey;
+
+}
+
+.map-location h6 {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.map {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    border-style: inset;
+    border-color: lawngreen;
+
+}
+
+.maps-section {
+    border-style: inset;
+
+}
